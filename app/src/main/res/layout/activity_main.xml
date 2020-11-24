@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/main_function" />
+
+        <LinearLayout
+            android:id="@+id/main_function"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@android:color/darker_gray" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:background="@color/white"
+                android:id="@+id/main_function_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                app:backgroundTint="@color/white"
+                app:itemIconTint="@color/main_function_bar"
+                app:itemTextColor="@color/main_function_bar"
+                app:menu="@menu/main_function_bar" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

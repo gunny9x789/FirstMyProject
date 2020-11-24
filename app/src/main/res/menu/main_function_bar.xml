@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/function_home"
+        android:icon="@drawable/icon_home_no_select"
+        android:title="@string/function_home" />
+    <item
+        android:id="@+id/function_category"
+        android:icon="@drawable/category_no_select"
+        android:title="@string/function_Category" />
+    <item
+        android:id="@+id/function_News"
+        android:icon="@drawable/news_feed_no_select"
+        android:title="@string/function_new" />
+    <item
+        android:id="@+id/function_Notification"
+        android:icon="@drawable/notification_no_select"
+        android:title="@string/function_Notification" />
+    <item
+        android:id="@+id/function_User"
+        android:icon="@drawable/user_no_select"
+        android:title="@string/function_user" />
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="home">Trang chủ</string>
+    <string name="category">Danh mục</string>
+    <string name="newsFeed">Bản tin</string>
+    <string name="notification">Thông báo</string>
+    <string name="user">Tài khoản</string>
+    <string name="et_search_bar">Bạn muốn tìm gì</string>
+
+    <string name="function_home">Trang chủ</string>
+    <string name="function_Category">Danh mục</string>
+    <string name="function_new">Bản tin</string>
+    <string name="function_Notification">Thông báo</string>
+    <string name="function_user">Tài khoản</string>
+</resources>

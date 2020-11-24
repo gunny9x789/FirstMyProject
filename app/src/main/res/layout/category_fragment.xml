@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@color/search_bar_bgr"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp"
+            android:weightSum="11">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10">
+
+                <EditText
+                    android:id="@+id/et_search_item_inCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/seach_bar"
+                    android:hint="@string/et_search_bar"
+                    android:paddingLeft="@dimen/_10sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_28sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:src="@drawable/ic_baseline_search_24" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/img_icon_buy_inCategory"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_shopping_cart_24" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/show_list_category_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</layout>
